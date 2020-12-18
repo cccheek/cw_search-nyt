@@ -20,6 +20,28 @@
           <h1 class="display-4">NYT Search</h1>
           <p class="lead">What you lookin' for?</p>
         </div>
+        <div class="container">
+            <form id="search-form">
+                <div class="form-group">
+                  <label for="search-term">Search Term:</label>
+                  <input type="text" class="form-control" id="search-term">
+                </div>
+                <div class="form-group">
+                  <label for="record-number">Number of Records to Retrieve</label>
+                  <input type="number" class="form-control" id="record-number">
+                </div>
+                <div class="form-group">
+                    <label for="start-year">Start Date (optional)</label>
+                    <input type="date" class="form-control" id="start-year">
+                  </div>
+                  <div class="form-group">
+                    <label for="end-year">End Date (Optional)</label>
+                    <input type="date" class="form-control" id="end-year">
+                  </div>
+                <button type="submit" class="btn btn-primary">Search</button>
+                <button type="button" class="btn btn-primary">Clear</button>
+              </form>
+        </div>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2"
